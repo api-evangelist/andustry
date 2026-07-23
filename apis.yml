@@ -1,7 +1,28 @@
 aid: andustry
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/andustry.png
 name: Andustry
-description: Andustry is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Andustry is an AI-native industrial equipment broker that streamlines sourcing
+  and procurement for manufacturers. The platform combines AI-powered supplier
+  discovery with manual qualification and commercial negotiation to source
+  industrial machines (CNC mills, lathes, press brakes, laser cutters, robotic
+  cells), machined/forged/cast parts, and robotics and electronics across Europe,
+  China, India, and the United States. Clients hand off a sourcing need and
+  Andustry returns a verified supplier shortlist within 24-48 hours, delivering an
+  average of roughly 30% cost savings and 2x faster sourcing timelines on a
+  commission-only basis with no subscription. Founded in 2026 (Y Combinator Spring
+  2026 batch) by Het Dave and Johann Stuerken and operated as Andustry GmbH.
 url: https://raw.githubusercontent.com/api-evangelist/andustry/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +35,45 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Industrial
+- Manufacturing
+- Procurement
+- Sourcing
+- Supply Chain
+- Robotics
+- Artificial Intelligence
+- Y Combinator
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/andustry-vulnerability-disclosure.yml
+- type: Security
+  url: https://andustry.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/andustry-domain-security.yml
+- type: WellKnown
+  url: well-known/andustry-well-known.yml
+- type: SecurityTxt
+  url: well-known/andustry-security.txt
+- type: Website
+  url: https://andustry.com
+- type: About
+  url: https://andustry.com/about
+- type: Support
+  url: mailto:sourcing@andustry.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/andustry-ai/
+- type: Twitter
+  url: https://x.com/andustry_hq
+- type: Crunchbase
+  url: https://www.ycombinator.com/companies/andustry
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
