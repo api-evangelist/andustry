@@ -58,6 +58,10 @@ tags:
 - Y Combinator
 apis: []
 common:
+- type: Pricing
+  url: https://andustry.com/
+- type: Plans
+  url: plans/andustry-plans-pricing.yml
 - type: VulnerabilityDisclosure
   url: security/andustry-vulnerability-disclosure.yml
 - type: Security
